@@ -6,4 +6,6 @@ ext {
 
 apply plugin: "kei.plugins.extension.legacy"
 
-// No extra libraries needed for now
+dependencies {
+    implementation(project(":lib:unpacker"))
+}
